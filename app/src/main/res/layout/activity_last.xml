@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blu"
+    android:orientation="vertical"
+    tools:context=".Last">
+
+    <ImageView
+
+        android:id="@+id/cake"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="206dp"
+        android:src="@drawable/cake" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin = "10sp"
+        android:layout_below="@+id/cake"
+        android:textColor="#f45070"
+        android:textStyle="bold|italic"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="24sp"
+        android:text="Made by : Jahanvee" />
+
+
+</RelativeLayout>
